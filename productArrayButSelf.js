@@ -18,4 +18,23 @@ by calculating:
 
 */
 
+function getProductsOfAllIntsExceptAtIndex(arr) {
+  let resultArr = [];
+  let product = 1;
+
+  for (let i = 0; i < arr.length; i++) {
+    resultArr[i] = product;
+    product *= arr[i];
+  }
+
+  product = 1;
+  for (let i = resultArr.length - 1; i >= 0; i--) {
+    resultArr[i] *= product;
+    product *= arr[i];
+  }
+  return resultArr;
+}
+
+let arr = [1,2,3,4];
+console.log(getProductsOfAllIntsExceptAtIndex(arr));
 
