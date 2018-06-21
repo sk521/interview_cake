@@ -59,11 +59,11 @@ console.log(mergeRanges([{ startTime: 1, endTime: 3 }, { startTime: 2, endTime: 
 // ]));
 // output: [{ startTime: 1, endTime: 8 }];
 
-console.log(mergeRanges([
-  { startTime: 5, endTime: 8 },
-  { startTime: 1, endTime: 4 },
-  { startTime: 6, endTime: 8 },
-]));
+// console.log(mergeRanges([
+//   { startTime: 5, endTime: 8 },
+//   { startTime: 1, endTime: 4 },
+//   { startTime: 6, endTime: 8 },
+// ]));
 // output: [{ startTime: 1, endTime: 4 }, { startTime: 5, endTime: 8 }];
 
 
